@@ -217,7 +217,8 @@ class Parameter(QtCore.QObject):
             name = parent._renameChild(self, name)  ## first ask parent if it's ok to rename
         if self.opts['name'] != name:
             self.opts['name'] = name
-            self.sigNameChanged.emit(self, name)
+            if self.sigNameChanged is not None:
+                self.sigNameChanged.emit(self, name)
         return name
 
     def type(self):
