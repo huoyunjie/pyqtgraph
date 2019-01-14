@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.org/pyqtgraph/pyqtgraph.svg?branch=develop)](https://travis-ci.org/pyqtgraph/pyqtgraph)
 [![codecov.io](http://codecov.io/github/pyqtgraph/pyqtgraph/coverage.svg?branch=develop)](http://codecov.io/github/pyqtgraph/pyqtgraph?branch=develop)
 
+Modify for Audio Developer
+=========
+Have fun!!!
+
 PyQtGraph
 =========
 
